@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_learning/src/features/basic/basic.dart';
+import 'package:riverpod_learning/src/features/api/api.dart';
+// import 'package:riverpod_learning/src/features/basic/basic.dart';
 // import 'package:riverpod_learning/src/features/home_page.dart';
 
 class App extends StatelessWidget {
@@ -17,7 +18,9 @@ class App extends StatelessWidget {
       //   title: "RiverPod Learning",
       // ),
 
-      home: const Basic(),
+      // home: const Basic(),
+
+      home: const ApiCase(),
     );
   }
 }
